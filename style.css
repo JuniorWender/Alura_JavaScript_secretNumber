@@ -5,6 +5,7 @@
     --bg-color: #393E46;
     --primary-color: #F7F7F7;
     --secundary-color: #6D9886;
+    --btn-color: #F2E7D5;
 }
 
 body{
@@ -24,6 +25,38 @@ h1{
     font-size: 9em;
 }
 
+/* Start Page  */
+
+.btn-tip{
+    border: 0;
+    border-radius: 100%;
+    cursor: pointer;
+    width: 2em;
+    height: 2em;
+
+}
+
+.btn-tip:hover{
+    background-color: var(--secundary-color);
+}
+
+.btn-tip,i{
+    font-size: 1.2em;
+}
+
+.btn-difficult{
+    border: 0;
+    background-color: var(--btn-color);
+    border-radius: 5px;
+    display: flex;
+}
+
+/*  Game Page */
+
+h2{
+    font-size: 6em;
+}
+
 h3{
     font-size: 4.5em;
     margin-top: 1.5em;
@@ -40,4 +73,12 @@ h3{
     font-size: 3.5em;
     padding: 0.1em;
     margin:0.3em;
+}
+
+.btn-play{
+    padding: 8px 15px;
+    border: 0;
+    background-color: var(--btn-color);
+    border-radius: 5px;
+    margin-top: 20px;
 }

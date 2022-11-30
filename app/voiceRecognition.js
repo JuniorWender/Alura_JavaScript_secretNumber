@@ -20,5 +20,7 @@ function showGuessOnScreen(guess) {
     elementGuess.innerHTML = `
         <div> You Say </div>
         <span class="box">${guess}></span>
-    `
+    `;
 }
+
+recognition.addEventListener('end',() => recognition.start());
