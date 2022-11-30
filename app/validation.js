@@ -1,0 +1,3 @@
+function verifyGuessIsValid(guess) {
+    
+}
