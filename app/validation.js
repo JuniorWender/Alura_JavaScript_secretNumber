@@ -18,7 +18,7 @@ function verifyGuessIsValid(guess) {
             <h2> Congrats! Your Guess Is Correct </h2>
             <h3> The Secret Number was ${secretNumber} </h3>
 
-            <button id="play-again" class="btn-play"> Play Again </button>
+            <button id="play-again" class="btn btn-play"> Play Again </button>
         `;
 
     } else if(number > secretNumber){

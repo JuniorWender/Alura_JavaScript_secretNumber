@@ -1,0 +1,41 @@
+.btn{
+    border: 0;
+    cursor: pointer;
+    background-color: var(--btn-color);
+    font-size: 1.3em;
+    transition: 0.4s background;
+}
+
+.btn:hover{
+    background: var(--secundary-color);
+}
+
+/*  */
+
+.btn-tip{
+    border-radius: 100%;
+    width: 2em;
+    height: 2em;
+    font-weight: bold;
+}
+
+.organize-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 11em;
+}
+
+.btn-difficult{
+    border-radius: 6px;
+    margin: 3em 0 3em 0;
+    width: 5em;
+    height: 3em;
+}
+
+
+.btn-start{
+    border-radius: 6px;
+    width: 8em;
+    height: 5em;
+    margin-top: 1em;
+}

@@ -10,4 +10,4 @@ const elementMinValue = document.getElementById('menor-valor');
 elementMinValue.innerHTML = minValue;
 
 const elementMaxValue = document.getElementById('maior-valor');
-elementMinValue.innerHTML = maxValue;
+elementMaxValue.innerHTML = maxValue;

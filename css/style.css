@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+:root{
+    --font-family: 'Nerko One', cursive;
+    --bg-color: #393E46;
+    --primary-color: #F7F7F7;
+    --secundary-color: #6D9886;
+    --btn-color: #F2E7D5;
+}
+
+h1{
+    font-size: 9em;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+h2{
+    font-size: 6em;
+}
+
+h3{
+    font-size: 4.5em;
+    margin-top: 1.5em;
+}
