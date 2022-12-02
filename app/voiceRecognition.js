@@ -7,6 +7,7 @@ var recognition = new SpeechRecognition();
 recognition.lang = 'en';
 
 recognition.start();
+setNumbersOnTheScreen();
 
 recognition.addEventListener('result',onSpeak);
 
@@ -19,7 +20,7 @@ function onSpeak(e) {
 function showGuessOnScreen(guess) {
     elementGuess.innerHTML = `
         <div> You Say </div>
-        <span class="box">${guess}></span>
+        <span class="box">${guess}</span>
     `;
 }
 

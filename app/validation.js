@@ -18,7 +18,16 @@ function verifyGuessIsValid(guess) {
             <h2> Congrats! Your Guess Is Correct </h2>
             <h3> The Secret Number was ${secretNumber} </h3>
 
-            <button id="play-again" class="btn btn-play"> Play Again </button>
+            <div class="organize-endgame-btn">
+                <button id="play-again" class="btn btn-play"> Play Again </button>
+                <button id="menu" class="btn btn-play"> Menu </button>
+            </div>
+
+            <footer> 
+            Create By: <a class="link" href="https://www.linkedin.com/in/jorgewenderjunior/"> Jorge Wender Jr </a>
+            <br>
+            <span> 02/12/2022 </span>
+            </footer>
         `;
 
     } else if(number > secretNumber){
@@ -40,5 +49,8 @@ function guessInvalid(number) {
 document.body.addEventListener('click',e => {
     if(e.target.id == 'play-again'){
         window.location.reload();
+    }
+    else if(e.target.id == 'menu'){
+        window.location = '../index.html';
     }
 })

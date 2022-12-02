@@ -8,6 +8,30 @@
     --btn-color: #F2E7D5;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.btn{
+    border: 0;
+    cursor: pointer;
+    background-color: var(--btn-color);
+    font-size: 1.3em;
+    transition: 0.4s background;
+}
+
+.btn:hover{
+    background: var(--secundary-color);
+}
+
 h1{
     font-size: 9em;
 }
@@ -32,4 +56,14 @@ h2{
 h3{
     font-size: 4.5em;
     margin-top: 1.5em;
+}
+
+footer{
+    font-size: 1.2em;
+    margin-top: 4em;
+}
+
+.link{
+    color: var(--primary-color);
+    color:inherit;
 }

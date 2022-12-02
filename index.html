@@ -12,7 +12,7 @@
     <title> Secret Number </title>
 </head>
 <body>
-    <button class="btn btn-tip">?</button>
+    <!-- <button class="btn btn-tip">?</button> -->
 
     <h1> Secret  Number The Game </h1>
 
@@ -24,8 +24,24 @@
         <button class="btn btn-difficult" onclick="selectDifficult(this)"> Hard </button>
     </div>
 
+    <div class="input-box">
+        <div class="gap-title">Insert the gap numbers</div>
+        <label class="number-input" for="min-number"> Min Value </label>
+        <input min="0" name="min-number" id="min-value" type="number">
+
+        <label class="number-input" for="max-number"> Max Value </label>
+        <input min="0" name="max-number" id="max-value" type="number">
+    </div>
+
     <button class="btn btn-start"> Start The Game </button>
-    
+
+    <footer> 
+        Create By: <a class="link" href="https://www.linkedin.com/in/jorgewenderjunior/"> Jorge Wender Jr </a>
+        <br>
+        <span> 02/12/2022 </span>
+    </footer>
+
     <script src="/app/gameEvents.js"></script>
+    <script src="/app/raffleNumber.js"></script>
 </body>
 </html>
