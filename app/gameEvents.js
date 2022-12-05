@@ -17,7 +17,10 @@ Array.from(btn).forEach(event => {
 
         else if(element.target === btnStart[0]){
             setGap(Math.abs(maxValueElement.value),Math.abs(minValueElement.value));
-            window.location = '../gamePage.html';
+            
+            setTimeout(() => {
+                window.location = '../gamePage.html';
+            }, 500);
         }
     })
 });

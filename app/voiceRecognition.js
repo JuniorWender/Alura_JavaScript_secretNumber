@@ -7,7 +7,11 @@ var recognition = new SpeechRecognition();
 recognition.lang = 'en';
 
 recognition.start();
-setNumbersOnTheScreen();
+
+document.addEventListener('DOMContentLoaded',() => {
+    setNumbersOnTheScreen();
+    console.log(secretNumber);
+});
 
 recognition.addEventListener('result',onSpeak);
 
