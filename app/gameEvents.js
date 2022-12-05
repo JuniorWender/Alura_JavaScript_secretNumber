@@ -16,11 +16,8 @@ Array.from(btn).forEach(event => {
         }
 
         else if(element.target === btnStart[0]){
-            setGap(Math.abs(maxValueElement.value),Math.abs(minValueElement.value));
-            
-            setTimeout(() => {
-                window.location = '../gamePage.html';
-            }, 500);
+            createNewGapOnLocalStorage(Math.abs(maxValueElement.value),Math.abs(minValueElement.value));
+            window.location = '../gamePage.html';
         }
     })
 });
@@ -32,13 +29,13 @@ function selectDifficult(difficult) {
     });
 
     if(difficult === btnDifficult[0]){
-        console.log('easy');
+        createNewDifficultOnLocalStorage(60);
     }
     if(difficult == btnDifficult[1]){
-        console.log('medium');
+        createNewDifficultOnLocalStorage(30)
     }
     if(difficult == btnDifficult[2]){
-        console.log('hard');
+        createNewDifficultOnLocalStorage(15);
     }
 
     gapDiv[0].style.display = 'block';

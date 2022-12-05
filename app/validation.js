@@ -30,6 +30,9 @@ function verifyGuessIsValid(guess) {
             </footer>
         `;
 
+        localStorage.removeItem("values");
+        localStorage.removeItem("difficults");
+
     } else if(number > secretNumber){
         elementGuess.innerHTML += `<div> The secret Number is less than <i class="fa-solid fa-arrow-down-long"></i> </div> `;
     }else{
