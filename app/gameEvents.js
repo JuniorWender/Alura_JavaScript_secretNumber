@@ -17,7 +17,7 @@ Array.from(btn).forEach(event => {
 
         else if(element.target === btnStart[0]){
             createNewGapOnLocalStorage(Math.abs(maxValueElement.value),Math.abs(minValueElement.value));
-            window.location = '../gamePage.html';
+            window.location = '../gamePage.html?';
         }
     })
 });

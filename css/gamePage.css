@@ -1,3 +1,12 @@
+#timerbutton{
+    border-radius: 100%; 
+    width: 4em; 
+    height: 4em; 
+    border: 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
 .message{
     font-size: 3em;
     margin-top: 1.8em;

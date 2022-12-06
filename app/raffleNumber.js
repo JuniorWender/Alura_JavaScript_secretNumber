@@ -1,7 +1,7 @@
 const elementMinValue = document.getElementById('menor-valor');
 const elementMaxValue = document.getElementById('maior-valor');
 values = JSON.parse(localStorage.getItem('values'));
-difficults = Json.parse(localStorage.getItem('difficults'));
+difficults = JSON.parse(localStorage.getItem('difficults'));
 
 var secretNumber;
 let minimumValue = values.minimum;
@@ -9,7 +9,7 @@ let maximumValue = values.maximum;
 
 document.addEventListener('DOMContentLoaded',() => {
     generatorRandomNumber();
-    setTimeInterval();
+    setTimeInterval(difficults);
 });
 
 function generatorRandomNumber() {
