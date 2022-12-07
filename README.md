@@ -2,6 +2,8 @@
 
 Discovery who is the raffle number until the time is over!
 
+https://secretnumberproject.netlify.app
+
 <img src="./sources/GameImage.png" alt="Project Image" style="height: 400px; width: 600px;">
 
 # What do You need to play?
