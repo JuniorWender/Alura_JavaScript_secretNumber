@@ -10,7 +10,7 @@ recognition.start();
 
 document.addEventListener('DOMContentLoaded',() => {
     setNumbersOnTheScreen();
-    // console.log(secretNumber);
+    console.log(secretNumber);
 });
 
 recognition.addEventListener('result',onSpeak);

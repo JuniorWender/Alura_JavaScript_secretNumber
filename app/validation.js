@@ -41,7 +41,7 @@ function verifyGuessIsValid(guess) {
 }
 
 function gussOnGap(number) {
-    return number > maxValue || number < minValue;
+    return number > maximumValue || number < minimumValue;
 }
 
 function guessInvalid(number) {

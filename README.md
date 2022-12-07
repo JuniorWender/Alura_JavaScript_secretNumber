@@ -1,6 +1,8 @@
 # Secret Number Project
 
-<img src="./sources/GameImage.png" alt="Project Image" style="height: 600px; width: 600px;">
+Discovery who is the raffle number until the time is over!
+
+<img src="./sources/GameImage.png" alt="Project Image" style="height: 400px; width: 600px;">
 
 # What do You need to play?
 
@@ -8,7 +10,7 @@ Only a Microphone and permit the browser to use your microphone.
 
 # What is the project?
 
-This project is a game created with Js
+This project is a game created only with a vanilla Js
 
 The game raffle a random number and use the microphone to recognize speechers numbers
 
@@ -16,11 +18,17 @@ The game raffle a random number and use the microphone to recognize speechers nu
 
 1. Permit the browser use your microphone:
 
-<img src="./sources/HowToPlay-1.png" alt="Project Image">
+<img src="./sources/HowToPlay-1.png" alt="Permit microphone use">
 
 2. Select the difficult: Easy , Medium or Hard 
 
-3. Click on the button: Start The Game
+<img src="./sources/HowToPlay-2.png" style="width: 400px" alt="Select the difficult">
+
+3. Put the min number and max number on gap to be raffle
+
+<img src="./sources/HowToPlay-3.png" style="width: 400px" alt="Fill the max and min input">
+
+4. Click on the button: Start The Game
 
 # External Services
 
